@@ -1206,15 +1206,18 @@ li{
 .cont-footer{
     position: relative;
     height: 100%;
-    width: 80%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
+    /* background-color: green; */
 }
 
 .content-icons-footer{
     position: absolute;
     text-align: left;
+    /* background-color: red; */
+    width: 100%;
 }
 
 .networks{
@@ -1244,14 +1247,14 @@ li{
     justify-content: center;
     flex: 1;
     flex-wrap: wrap;
+    width: 100%;
 }
 
 .items-footer{
     position: relative;
     text-decoration: none;
     color: white;
-    /* margin: 0 25px; */
-    /* margin-top: 20px; */
+    /* margin-top: 15px; */
     font-family: var(--fuente-font-family);
 }
 
@@ -1260,6 +1263,22 @@ li{
         font-size: 14px;
         margin: 0 10px;
     }
+}
+
+@media screen (max-widht: 400px) {
+    .items-footer{
+        font-size: 10px;
+        /* margin: ; */
+    }
+}
+
+.nav-links{
+    position: relative;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .div-links-footer{
