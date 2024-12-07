@@ -1166,17 +1166,17 @@ li{
 /* footer */
 
 .footer{
-    position: relative;
+    position: absolute;
     display: flex;
     align-items: center;
     justify-content: center;
     height: 19vh;
     width: 100%;
-    bottom: 0;
     background: rgba(97, 11, 114, 0.7);
     backdrop-filter: blur(2rem), brightness(1.5);
     margin-top: 50px;
     box-shadow: 0 -4px 25px rgb(39, 4, 39);
+    /* background-color: gray; */
 }
 
 @media screen and (max-width: 1030px) {
@@ -1191,14 +1191,25 @@ li{
     width: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-evenly;
     /* background-color: green; */
 }
 
-.content-icons-footer{
-    position: absolute;
-    text-align: left;
+.content-ul-footer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
     /* background-color: red; */
+}
+
+.ul-list-footer{
+    position: relative;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     width: 100%;
 }
 
@@ -1219,20 +1230,6 @@ li{
     }
 }
 
-.cont-icons-second{
-    text-align: center;
-}
-
-.ul-list-footer{
-    margin: 0 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    flex: 1;
-    /* flex-wrap: wrap; */
-    width: 100%;
-}
-
 .items-footer{
     position: relative;
     text-decoration: none;
@@ -1244,24 +1241,9 @@ li{
     .items-footer{
         font-size: 14px;
         /* margin-right:30px; */
-        justify-content: space-around;
+        /* justify-content: space-around; */
         text-align: center;
     }
-}
-
-/* @media screen and (max-width: 400px) {
-    .items-footer{
-        font-size: 10px;
-    }
-} */
-
-.nav-links{
-    position: relative;
-    width: 100%;
-    /* background-color: red; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
 .div-links-footer{
