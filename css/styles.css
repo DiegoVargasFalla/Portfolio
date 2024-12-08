@@ -749,6 +749,10 @@ li{
             
 }
 
+.text-about{
+    display: flex;
+}
+
 /* sec skills */
 
 .sec-skills{
@@ -1310,7 +1314,7 @@ li{
 
 .cont-major-loader{
     position: fixed;
-    background: linear-gradient(rgb(50, 3, 40),  rgb(128, 9, 130),  rgb(50, 3, 40));
+    background: linear-gradient(rgb(50, 3, 40),  rgb(157, 25, 159),  rgb(50, 3, 40));
     height: 100%;
     width: 100%;
     z-index: 9999;
