@@ -73,7 +73,6 @@ function loadScreen() {
             let newOpacity = opacity * 0.1;
             loader.style.opacity = newOpacity;
             opacity--;
-            console.log("opacity:" + opacity)
             
             setTimeout(decreaseOpacity, 50)
         } else {
@@ -95,7 +94,6 @@ function percentage() {
     function percentageTime() {
         if (num <= 100) {
             percentage.textContent = num + "%"
-            console.log(percentage.textContent)
             num++
             setTimeout(percentageTime, 14)
         }
