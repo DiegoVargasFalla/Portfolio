@@ -56,3 +56,55 @@ layerMenu.addEventListener('click', () => {
         sideMenu.style.display = 'none';
     }
 })
+
+// load screen
+
+function loadScreen() {
+
+    const body = document.body;
+    const loader = document.getElementById("cont-major-loader")
+
+    body.style.overflow = "hidden";
+
+    let opacity = 10;
+
+    function decreaseOpacity() {
+        if (opacity >= 0) {
+            let newOpacity = opacity * 0.1;
+            loader.style.opacity = newOpacity;
+            opacity--;
+            console.log("opacity:" + opacity)
+            
+            setTimeout(decreaseOpacity, 50)
+        } else {
+            loader.style.display = "none"
+            body.style.overflowY = "auto"
+            body.style.overflowX = "hidden"
+
+        }
+    }
+
+    setTimeout(decreaseOpacity, 1800)
+    
+}
+
+function percentage() {
+    let percentage = document.getElementById("percentage");
+    let num = 0
+    
+    function percentageTime() {
+        if (num <= 100) {
+            percentage.textContent = num + "%"
+            console.log(percentage.textContent)
+            num++
+            setTimeout(percentageTime, 14)
+        }
+    }
+
+    percentageTime()
+
+}
+
+document.addEventListener("DOMContentLoaded", percentage)
+
+// document.addEventListener("DOMContentLoaded", loadScreen())
