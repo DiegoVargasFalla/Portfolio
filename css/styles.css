@@ -1178,8 +1178,9 @@ li{
     width: 100%;
     background: rgba(97, 11, 114, 0.7);
     backdrop-filter: blur(2rem), brightness(1.5);
+    /* background: transparent; */
     margin-top: 50px;
-    box-shadow: 0 -4px 25px rgb(39, 4, 39);
+    box-shadow: 0 -8px 25px rgb(39, 4, 39);
     /* background-color: gray; */
 }
 
@@ -1197,6 +1198,23 @@ li{
     align-items: center;
     justify-content: space-evenly;
     /* background-color: green; */
+}
+
+@media screen and (max-width: 445px) {
+    .footer{
+        background: transparent;
+        box-shadow: none;
+    }
+    .cont-footer{
+        background: rgba(97, 11, 114, 0.7);
+        backdrop-filter: blur(2rem), brightness(1.5);
+        /* background: transparent; */
+        box-shadow: 0 -8px 25px rgb(39, 4, 39);
+        width: 980px;
+    }
+    .copy-right{
+        margin-right: 5px;
+    }
 }
 
 .content-ul-footer{
