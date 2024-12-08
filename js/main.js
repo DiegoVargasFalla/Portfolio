@@ -107,4 +107,4 @@ function percentage() {
 
 document.addEventListener("DOMContentLoaded", percentage)
 
-// document.addEventListener("DOMContentLoaded", loadScreen())
+document.addEventListener("DOMContentLoaded", loadScreen())
