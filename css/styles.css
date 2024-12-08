@@ -1369,8 +1369,8 @@ li{
     background-color: rgb(128, 9, 130);
     border-radius: 50%;
     margin: 20px;
-    height: 84%;
-    width: 84%;
+    height: 85%;
+    width: 85%;
     box-shadow: inset 0 0 12px rgb(19, 19, 19);
 }
 
@@ -1386,7 +1386,7 @@ li{
 .progress-bar{
     position: relative;
     background-color: white;
-    height: 6px;
+    height: 9px;
     width: 300px;
     border-radius: 10px;
     overflow: hidden;
