@@ -792,16 +792,6 @@ li{
     width: 65px;
 }
 
-/* .frontend-skills{
-    position: relative;
-    display: flex;
-    align-items: flex-start;
-    justify-content: center; 
-    flex-wrap: wrap;
-    width: 90%;
-}*/
-
-
 .backend-skills,
 .frontend-skills,
 .other-skills{
