@@ -22,8 +22,8 @@
 import Projects from '../Projects.vue';
 
 const listProjects = [
-    {name: "Hiddenpass", image: "src/assets/img/hiddenpass.png", enviroment: "Web", link: "https://hiddenpass.net", github: "https://github.com/DiegoVargasFalla/HiddenPass-backend", active: true, icons: [{name: "Java", img: "src/assets/img/java.svg"}, {name: "Spring Boot", img: "src/assets/img/spring-boot.svg"}, {name: "Spring Security", img: "src/assets/img/springsecurity.webp"}, {name: "spring Data", img: "src/assets/img/springdata.png"}, {name: "JWT", img: "src/assets/img/jwt.svg"}]},
-    {name: "Gestion de cursos", image: "src/assets/img/courses.png", enviroment: "Desktop", link: "", github: "https://github.com/DiegoVargasFalla/CourseManagementSystem", active: false, icons: [{name: "Java", img: "src/assets/img/java.svg"}, {name: "Hibernate", img: "src/assets/img/hibernate.svg"}, {name: "Json ", img: "src/assets/img/json.png"}]},
+    {name: "Hiddenpass", image: "/src/assets/img/hiddenpass.png", enviroment: "Web", link: "https://hiddenpass.net", github: "https://github.com/DiegoVargasFalla/HiddenPass-backend", active: true, icons: [{name: "Java", img: "/src/assets/img/java.svg"}, {name: "Spring Boot", img: "/src/assets/img/spring-boot.svg"}, {name: "S/pring Security", img: "/src/assets/img/springsecurity.webp"}, {name: "spring Data", img: "/src/assets/img/springdata.png"}, {name: "JWT", img: "/src/assets/img/jwt.svg"}]},
+    {name: "Gestion de cursos", image: "/src/assets/img/courses.png", enviroment: "Desktop", link: "", github: "https://github.com/DiegoVargasFalla/CourseManagementSystem", active: false, icons: [{name: "Java", img: "/src/assets/img/java.svg"}, {name: "Hibernate", img: "/src/assets/img/hibernate.svg"}, {name: "Json ", img: "/src/assets/img/json.png"}]},
     // {name: "Downloader music", image: "src/assets/img/downloader.webp", enviroment: "Desktop", link: "", github: "https://github.com/DiegoVargasFalla/MusicDownloader", active: false, icons: ["src/assets/img/python.svg", "src/assets/img/flet.svg"]},
 ]
 

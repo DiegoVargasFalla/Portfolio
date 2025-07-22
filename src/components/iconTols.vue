@@ -42,8 +42,6 @@ const props = defineProps({
 .tooltip {
   position: absolute;
   top: -1.8rem;
-  /* top: 1rem; */
-  /* left: 1rem; */
   transform: translateX(-50%) translateY(-4px);
   background-color: #333;
   color: white;
@@ -55,7 +53,6 @@ const props = defineProps({
   transition: opacity 0.2s ease, transform 0.2s ease;
   pointer-events: none;
   font-family: "KFanit", sans-serif;
-  /* z-index: 10; */
 }
 
 .content-icon-wrapper:hover .tooltip {
