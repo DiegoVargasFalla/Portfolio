@@ -126,6 +126,9 @@
 .cont-myimg{
     position: relative;
     margin: 0 auto;
+    /* height: 20rem; */
+    /* width: 10rem; */
+    /* background-color: red; */
 }
 
 .my-img:hover{

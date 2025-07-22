@@ -19,34 +19,57 @@
 
 import iconsSkills from '../iconsSkills.vue';
 
+import java from "@/assets/img/java.svg";
+import spring from "@/assets/img/spring.svg";
+import springBoot from "@/assets/img/spring-boot.svg";
+import springSecurity from "@/assets/img/springsecurity.webp";
+import springData from "@/assets/img/springdata.png";
+import postman from "@/assets/img/Postman.webp";
+import jwt from "@/assets/img/jwt.svg";
+import docker from "@/assets/img/Docker.SVG";
+import git from "@/assets/img/git.svg";
+import github from "@/assets/img/github.svg";
+import bash from "@/assets/img/bash.svg";
+import linux from "@/assets/img/linux.svg";
+import python from "@/assets/img/python.svg";
+import flet from "@/assets/img/flet.svg";
+import mysql from "@/assets/img/mysql.svg";
+import html from "@/assets/img/html.svg";
+import css from "@/assets/img/css.svg";
+import js from "@/assets/img/javascript.svg";
+import vue from "@/assets/img/vue.svg";
+import vsc from "@/assets/img/vsc.svg";
+import intelliJ from "@/assets/img/intelli-j.svg";
+import swagger from "@/assets/img/Swagger.svg";
+import nginx from "@/assets/img/NGINX.SVG";
+import hibernate from "@/assets/img/hibernate.svg";
 
 const listIcons = [
-    {name: "Java", path: "/src/assets/img/java.svg"},
-    {name: "Spring", path: "/src/assets/img/spring.svg"},
-    {name: "Spring boot", path: "/src/assets/img/spring-boot.svg"},
-    {name: "Spring security", path: "/src/assets/img/springsecurity.webp"},
-    {name: "Spring data", path: "/src/assets/img/springdata.png"},
-    {name: "Postman", path: "/src/assets/img/Postman.webp"},
-    {name: "JWT", path: "/src/assets/img/jwt.svg"},
-    {name: "Docker", path: "/src/assets/img/Docker.SVG"},
-    {name: "Git", path: "/src/assets/img/git.svg"},
-    {name: "Github", path: "/src/assets/img/github.svg"},
-    {name: "Bash", path: "/src/assets/img/bash.svg"},
-    {name: "Linux", path: "/src/assets/img/linux.svg"},
-    {name: "Python", path: "/src/assets/img/python.svg"},
-    {name: "Flet", path: "/src/assets/img/flet.svg"},
-    {name: "Mysql", path: "/src/assets/img/mysql.svg"},
-    {name: "HTML", path: "/src/assets/img/html.svg"},
-    {name: "CSS", path: "/src/assets/img/css.svg"},
-    {name: "JS", path: "/src/assets/img/javascript.svg"},
-    {name: "vue", path: "/src/assets/img/vue.svg"},
-    {name: "VSC", path: "/src/assets/img/vsc.svg"},
-    {name: "Intelli-J", path: "/src/assets/img/intelli-j.svg"},
-    {name: "Swagger", path: "/src/assets/img/Swagger.svg"},
-    {name: "NGINX", path: "/src/assets/img/NGINX.SVG"},
-    {name: "Hibernete", path: "/src/assets/img/hibernate.svg"},
-]
-
+  { name: "Java", path: java },
+  { name: "Spring", path: spring },
+  { name: "Spring boot", path: springBoot },
+  { name: "Spring security", path: springSecurity },
+  { name: "Spring data", path: springData },
+  { name: "Postman", path: postman },
+  { name: "JWT", path: jwt },
+  { name: "Docker", path: docker },
+  { name: "Git", path: git },
+  { name: "Github", path: github },
+  { name: "Bash", path: bash },
+  { name: "Linux", path: linux },
+  { name: "Python", path: python },
+  { name: "Flet", path: flet },
+  { name: "Mysql", path: mysql },
+  { name: "HTML", path: html },
+  { name: "CSS", path: css },
+  { name: "JS", path: js },
+  { name: "Vue", path: vue },
+  { name: "VSC", path: vsc },
+  { name: "Intelli-J", path: intelliJ },
+  { name: "Swagger", path: swagger },
+  { name: "NGINX", path: nginx },
+  { name: "Hibernate", path: hibernate },
+];
 
 </script>
 

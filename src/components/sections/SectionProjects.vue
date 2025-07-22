@@ -19,13 +19,49 @@
 
 <script setup>
 
-import Projects from '../Projects.vue';
+import Projects from '../Projects.vue'
+
+import java from "@/assets/img/java.svg"
+import springBoot from "@/assets/img/spring-boot.svg"
+import springSecurity from "@/assets/img/springsecurity.webp"
+import springData from "@/assets/img/springdata.png"
+import jwt from "@/assets/img/jwt.svg"
+import hibernate from "@/assets/img/hibernate.svg"
+import json from "@/assets/img/json.png"
+import hiddenpass from "@/assets/img/hiddenpass.png"
+import courses from "@/assets/img/courses.png"
 
 const listProjects = [
-    {name: "Hiddenpass", image: "/src/assets/img/hiddenpass.png", enviroment: "Web", link: "https://hiddenpass.net", github: "https://github.com/DiegoVargasFalla/HiddenPass-backend", active: true, icons: [{name: "Java", img: "/src/assets/img/java.svg"}, {name: "Spring Boot", img: "/src/assets/img/spring-boot.svg"}, {name: "S/pring Security", img: "/src/assets/img/springsecurity.webp"}, {name: "spring Data", img: "/src/assets/img/springdata.png"}, {name: "JWT", img: "/src/assets/img/jwt.svg"}]},
-    {name: "Gestion de cursos", image: "/src/assets/img/courses.png", enviroment: "Desktop", link: "", github: "https://github.com/DiegoVargasFalla/CourseManagementSystem", active: false, icons: [{name: "Java", img: "/src/assets/img/java.svg"}, {name: "Hibernate", img: "/src/assets/img/hibernate.svg"}, {name: "Json ", img: "/src/assets/img/json.png"}]},
-    // {name: "Downloader music", image: "src/assets/img/downloader.webp", enviroment: "Desktop", link: "", github: "https://github.com/DiegoVargasFalla/MusicDownloader", active: false, icons: ["src/assets/img/python.svg", "src/assets/img/flet.svg"]},
+  {
+    name: "Hiddenpass",
+    image: hiddenpass,
+    enviroment: "Web",
+    link: "https://hiddenpass.net",
+    github: "https://github.com/DiegoVargasFalla/HiddenPass-backend",
+    active: true,
+    icons: [
+      { name: "Java", img: java },
+      { name: "Spring Boot", img: springBoot },
+      { name: "Spring Security", img: springSecurity },
+      { name: "Spring Data", img: springData },
+      { name: "JWT", img: jwt }
+    ]
+  },
+  {
+    name: "Gestion de cursos",
+    image: courses,
+    enviroment: "Desktop",
+    link: "",
+    github: "https://github.com/DiegoVargasFalla/CourseManagementSystem",
+    active: false,
+    icons: [
+      { name: "Java", img: java },
+      { name: "Hibernate", img: hibernate },
+      { name: "Json", img: json }
+    ]
+  }
 ]
+
 
 </script>
 
