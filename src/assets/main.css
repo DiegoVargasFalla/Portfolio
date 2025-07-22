@@ -1,0 +1,20 @@
+/* @import './base.css'; */
+
+html, body, #app {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+
+#app::-webkit-scrollbar {
+  display: none; /* Chrome, Safari, Edge */
+}
+
+#app {
+  overflow: scroll;
+  scrollbar-width: none; /* Firefox */
+}
