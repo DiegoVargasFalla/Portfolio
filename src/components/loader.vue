@@ -73,7 +73,7 @@ function percentage() {
 
 .cont-major-loader {
     position: fixed;
-    background: linear-gradient(rgb(50, 3, 40),  rgb(157, 25, 159),  rgb(50, 3, 40));
+    background: linear-gradient(rgb(50, 3, 40),  rgb(26, 71, 130),  rgb(50, 3, 40));
     height: 100%;
     width: 100%;
     z-index: 1000;
@@ -130,7 +130,7 @@ function percentage() {
 .progress-circle::after{
     content: "";
     position: absolute;
-    background-color: rgb(128, 9, 130);
+    background-color: rgb(26, 71, 130);
     border-radius: 50%;
     margin: 20px;
     height: 85%;
