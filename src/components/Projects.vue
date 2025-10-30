@@ -86,7 +86,7 @@ const props = defineProps({
     width: 100%;
     top: 0;
     left: 0;
-    object-fit: cover;
+    /* object-fit: fill; */
     border-radius: 0.7rem;
     z-index: 1;
     filter: brightness(0.7);

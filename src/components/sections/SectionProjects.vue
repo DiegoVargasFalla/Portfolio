@@ -72,7 +72,7 @@ const listProjects = [
     icons: [
       { name: "Java", img: java },
       { name: "Hibernate", img: hibernate },
-      { name: "Json", img: json },
+      { name: "JWT", img: jwt },
       { name: "Spring Security", img: springSecurity },
       { name: "Spring Data", img: springData },
       { name: "Swagger", img: Swagger },
