@@ -30,6 +30,8 @@ import hibernate from "@/assets/img/hibernate.svg"
 import json from "@/assets/img/json.png"
 import hiddenpass from "@/assets/img/hiddenpass.png"
 import courses from "@/assets/img/courses.png"
+import Swagger from "@/assets/img/Swagger.svg"
+import CourseManagementApi from "@/assets/img/CourseManagementApi.webp" 
 
 const listProjects = [
   {
@@ -59,7 +61,23 @@ const listProjects = [
       { name: "Hibernate", img: hibernate },
       { name: "Json", img: json }
     ]
-  }
+  },
+  {
+    name: "Course Management System API",
+    image: CourseManagementApi,
+    enviroment: "Web",
+    link: "",
+    github: "https://github.com/DiegoVargasFalla/CourseManagementSystemApi",
+    active: false,
+    icons: [
+      { name: "Java", img: java },
+      { name: "Hibernate", img: hibernate },
+      { name: "Json", img: json },
+      { name: "Spring Security", img: springSecurity },
+      { name: "Spring Data", img: springData },
+      { name: "Swagger", img: Swagger },
+    ]
+  },
 ]
 
 
